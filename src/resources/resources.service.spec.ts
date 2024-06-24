@@ -6,7 +6,7 @@ import mongoose, { Document, Model } from 'mongoose';
 import { BadRequestException, NotFoundException } from '@nestjs/common';
 import { User } from '../auth/schemas/user.schema';
 import { CreateResourceDTO } from './dto/createResource.dto';
-import { UpdateResourceDTO } from './dto/updateResource.dto';
+import { UpdateResourceDTO } from './dto/UpdateResource.dto';
 
 describe('ResourcesService', () => {
   let resourceService: ResourcesService;

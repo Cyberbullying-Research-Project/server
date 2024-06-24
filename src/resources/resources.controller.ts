@@ -13,7 +13,7 @@ import {
 } from '@nestjs/common';
 import { ResourcesService } from './resources.service';
 import { CreateResourceDTO } from './dto/createResource.dto';
-import { UpdateResourceDTO } from './dto/updateResource.dto';
+import { UpdateResourceDTO } from './dto/UpdateResource.dto';
 import { GetResourceDTO } from './dto/getResource.dto';
 import { MongoIdPipe } from './resources.pipe';
 import { Query as ExpressQuery } from 'express-serve-static-core';

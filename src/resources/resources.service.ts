@@ -6,7 +6,7 @@ import {
 import { InjectModel } from '@nestjs/mongoose';
 import { Resource } from './schemas/resource.schema';
 import { CreateResourceDTO } from './dto/createResource.dto';
-import { UpdateResourceDTO } from './dto/updateResource.dto';
+import { UpdateResourceDTO } from './dto/UpdateResource.dto';
 import mongoose, { Model } from 'mongoose';
 import { Query } from 'express-serve-static-core';
 import { User } from '../auth/schemas/user.schema';
